@@ -215,6 +215,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Andrew Florjancic";
 				TargetAttributes = {
 					9EE557022C6285CA00547B05 = {
 						CreatedOnToolsVersion = 14.3.1;
