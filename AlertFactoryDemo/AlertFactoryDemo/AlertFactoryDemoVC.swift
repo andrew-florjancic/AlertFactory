@@ -52,7 +52,7 @@ struct AlertFactoryDemoVM {
     let cellModels: [DemoTableViewCellModel] = [
         .init(title: "Welcome", alert: AppAlerts.BaseApp.welcomeAlert()),
         .init(title: "Feedback", alert: AppAlerts.BaseApp.feedbackAlert(yesHandler: nil, noHandler: nil)),
-        .init(title: "Delete Account", alert: AppAlerts.BaseApp.deleteAccount(deleteHandler: nil, cancelHandler: nil)),
+        .init(title: "Delete Account", alert: AppAlerts.BaseApp.deleteAccount(deleteHandler: nil)),
         .init(title: "Contact", alert: AppAlerts.ContactFeature.contactUsAlert(callHandler: nil, emailHandler: nil, reportHandler: nil)),
         .init(title: "Survey", alert: AppAlerts.SurveyFeature.newNameSurveyAlert(submitHandler: nil, nameHandler: nil))
     ]

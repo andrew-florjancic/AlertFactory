@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E1963CC2C640881003F941B /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1963CB2C640881003F941B /* Alerts.swift */; };
+		9E1963CC2C640881003F941B /* AppAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1963CB2C640881003F941B /* AppAlerts.swift */; };
 		9EE557072C6285CA00547B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557062C6285CA00547B05 /* AppDelegate.swift */; };
 		9EE557092C6285CA00547B05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557082C6285CA00547B05 /* SceneDelegate.swift */; };
-		9EE5570B2C6285CA00547B05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5570A2C6285CA00547B05 /* ViewController.swift */; };
+		9EE5570B2C6285CA00547B05 /* AlertFactoryDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5570A2C6285CA00547B05 /* AlertFactoryDemoVC.swift */; };
 		9EE5570E2C6285CA00547B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5570C2C6285CA00547B05 /* Main.storyboard */; };
 		9EE557102C6285E200547B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5570F2C6285E200547B05 /* Assets.xcassets */; };
 		9EE557132C6285E200547B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE557112C6285E200547B05 /* LaunchScreen.storyboard */; };
@@ -39,11 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9E1963CB2C640881003F941B /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		9E1963CB2C640881003F941B /* AppAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlerts.swift; sourceTree = "<group>"; };
 		9EE557032C6285CA00547B05 /* AlertFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE557062C6285CA00547B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE557082C6285CA00547B05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9EE5570A2C6285CA00547B05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EE5570A2C6285CA00547B05 /* AlertFactoryDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactoryDemoVC.swift; sourceTree = "<group>"; };
 		9EE5570D2C6285CA00547B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EE5570F2C6285E200547B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EE557122C6285E200547B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		9E1963CA2C640826003F941B /* Alerts */ = {
 			isa = PBXGroup;
 			children = (
-				9E1963CB2C640881003F941B /* Alerts.swift */,
+				9E1963CB2C640881003F941B /* AppAlerts.swift */,
 			);
 			path = Alerts;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 				9E1963CA2C640826003F941B /* Alerts */,
 				9EE557062C6285CA00547B05 /* AppDelegate.swift */,
 				9EE557082C6285CA00547B05 /* SceneDelegate.swift */,
-				9EE5570A2C6285CA00547B05 /* ViewController.swift */,
+				9EE5570A2C6285CA00547B05 /* AlertFactoryDemoVC.swift */,
 				9EE5570C2C6285CA00547B05 /* Main.storyboard */,
 				9EE5570F2C6285E200547B05 /* Assets.xcassets */,
 				9EE557112C6285E200547B05 /* LaunchScreen.storyboard */,
@@ -296,9 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE5570B2C6285CA00547B05 /* ViewController.swift in Sources */,
+				9EE5570B2C6285CA00547B05 /* AlertFactoryDemoVC.swift in Sources */,
 				9EE557072C6285CA00547B05 /* AppDelegate.swift in Sources */,
-				9E1963CC2C640881003F941B /* Alerts.swift in Sources */,
+				9E1963CC2C640881003F941B /* AppAlerts.swift in Sources */,
 				9EE557402C629E6E00547B05 /* DemoTableViewCell.swift in Sources */,
 				9EE557092C6285CA00547B05 /* SceneDelegate.swift in Sources */,
 			);

@@ -16,18 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQW-hi-2QL">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <items>
+                                    <navigationItem title="Alert Factory Demo" id="jRn-sR-ZNQ"/>
+                                </items>
+                            </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="WPS-ST-KFA">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WPS-ST-KFA" secondAttribute="bottom" id="FiQ-Iz-Cbs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WPS-ST-KFA" secondAttribute="trailing" id="LgC-eT-lZk"/>
-                            <constraint firstItem="WPS-ST-KFA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="taw-4D-8F3"/>
-                            <constraint firstItem="WPS-ST-KFA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vQc-jp-hYX"/>
+                            <constraint firstItem="IQW-hi-2QL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BEA-tN-whw"/>
+                            <constraint firstItem="WPS-ST-KFA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="C2S-zF-m4Q"/>
+                            <constraint firstItem="IQW-hi-2QL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aEW-l3-KK5"/>
+                            <constraint firstItem="WPS-ST-KFA" firstAttribute="top" secondItem="IQW-hi-2QL" secondAttribute="bottom" id="lGg-dp-C80"/>
+                            <constraint firstItem="WPS-ST-KFA" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mDU-0e-Joc"/>
+                            <constraint firstItem="IQW-hi-2QL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pFU-C0-REl"/>
+                            <constraint firstItem="WPS-ST-KFA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qO3-FZ-Ykz"/>
                         </constraints>
                     </view>
                     <connections>
