@@ -88,7 +88,7 @@ extension AppAlerts {
             
             internal var model: AlertModel {
                 switch self {
-                case .contact: return AlertModel(title: "Contact Us", message: "Select an option below to reach out", preferredStyle: .actionSheet)
+                case .contact: return AlertModel(title: "Contact Us", message: "Select a method of contact below:", preferredStyle: .actionSheet)
                 }
             }
         }
