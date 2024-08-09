@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AlertFactory
 
 /// ViewController to demonstrate different alerts
 class AlertFactoryDemoVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -46,9 +47,15 @@ class AlertFactoryDemoVC: UIViewController, UITableViewDelegate, UITableViewData
 
 /// A view model for the AlertFactoryDemoVC
 struct AlertFactoryDemoVM {
-
+    
     /// An array of cell models to configure each cell with
-    let cellModels: [DemoTableViewCellModel] = []
+    let cellModels: [DemoTableViewCellModel] = [
+        .init(title: "Welcome", alert: AppAlerts.BaseApp.welcomeAlert()),
+        .init(title: "Feedback", alert: AppAlerts.BaseApp.feedbackAlert(yesHandler: nil, noHandler: nil)),
+        .init(title: "Delete Account", alert: AppAlerts.BaseApp.deleteAccount(deleteHandler: nil, cancelHandler: nil)),
+        .init(title: "Contact", alert: AppAlerts.ContactFeature.contactUsAlert(callHandler: nil, emailHandler: nil, reportHandler: nil)),
+        .init(title: "Survey", alert: AppAlerts.SurveyFeature.newNameSurveyAlert(submitHandler: nil, nameHandler: nil))
+    ]
     
     /// Gets the cell model  for the provided given indexPath
     /// - Parameter indexPath: The `IndexPath` of the desired cell
