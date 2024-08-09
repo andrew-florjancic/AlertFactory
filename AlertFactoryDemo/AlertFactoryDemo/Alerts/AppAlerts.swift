@@ -9,7 +9,8 @@
 import UIKit
 import AlertFactory
 
-/// Alerts for use in the application
+// MARK: Base App Alerts
+/// Alerts for use in the entire application
 enum AppAlerts {
     
     /// A set of alerts used throughout the application not specific to a single feature
@@ -75,9 +76,10 @@ enum AppAlerts {
 }
 
 
-// MARK: App Alerts for the 'Contact Feature'
+// MARK: Contact Feature App Alerts
 extension AppAlerts {
     
+    /// A set of alerts for use only in the `Contact Feature`
     enum ContactFeature {
         
         /// Prebuilt `AlertFactory.Alert`s for the `Contact Feature`
@@ -123,9 +125,10 @@ extension AppAlerts {
 }
 
 
-// MARK: Feature 2 App alerts
+// MARK: Survey Feature Alerts
 extension AppAlerts {
     
+    /// A set of alerts for use only in the `Survey Feature`
     enum SurveyFeature {
         
         /// Prebuilt `AlertFactory.Alerts`s for the `Survey Feature`
