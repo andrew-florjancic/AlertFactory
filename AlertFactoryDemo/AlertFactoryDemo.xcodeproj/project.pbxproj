@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E1963CC2C640881003F941B /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1963CB2C640881003F941B /* Alerts.swift */; };
 		9EE557072C6285CA00547B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557062C6285CA00547B05 /* AppDelegate.swift */; };
 		9EE557092C6285CA00547B05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557082C6285CA00547B05 /* SceneDelegate.swift */; };
 		9EE5570B2C6285CA00547B05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5570A2C6285CA00547B05 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 		9EE557282C6285E300547B05 /* AlertFactoryDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557272C6285E300547B05 /* AlertFactoryDemoUITests.swift */; };
 		9EE5572A2C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557292C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift */; };
 		9EE5573A2C6286F800547B05 /* AlertFactory in Frameworks */ = {isa = PBXBuildFile; productRef = 9EE557392C6286F800547B05 /* AlertFactory */; };
+		9EE557402C629E6E00547B05 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5573F2C629E6E00547B05 /* DemoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E1963CB2C640881003F941B /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		9EE557032C6285CA00547B05 /* AlertFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE557062C6285CA00547B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE557082C6285CA00547B05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		9EE557272C6285E300547B05 /* AlertFactoryDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactoryDemoUITests.swift; sourceTree = "<group>"; };
 		9EE557292C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactoryDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9EE557372C62864000547B05 /* AlertFactory */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AlertFactory; path = ..; sourceTree = "<group>"; };
+		9EE5573F2C629E6E00547B05 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E1963CA2C640826003F941B /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				9E1963CB2C640881003F941B /* Alerts.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
 		9EE556FA2C6285CA00547B05 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 		9EE557052C6285CA00547B05 /* AlertFactoryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E1963CA2C640826003F941B /* Alerts */,
 				9EE557062C6285CA00547B05 /* AppDelegate.swift */,
 				9EE557082C6285CA00547B05 /* SceneDelegate.swift */,
 				9EE5570A2C6285CA00547B05 /* ViewController.swift */,
@@ -111,6 +124,7 @@
 				9EE5570F2C6285E200547B05 /* Assets.xcassets */,
 				9EE557112C6285E200547B05 /* LaunchScreen.storyboard */,
 				9EE557142C6285E200547B05 /* Info.plist */,
+				9EE5573F2C629E6E00547B05 /* DemoTableViewCell.swift */,
 			);
 			path = AlertFactoryDemo;
 			sourceTree = "<group>";
@@ -284,6 +298,8 @@
 			files = (
 				9EE5570B2C6285CA00547B05 /* ViewController.swift in Sources */,
 				9EE557072C6285CA00547B05 /* AppDelegate.swift in Sources */,
+				9E1963CC2C640881003F941B /* Alerts.swift in Sources */,
+				9EE557402C629E6E00547B05 /* DemoTableViewCell.swift in Sources */,
 				9EE557092C6285CA00547B05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
