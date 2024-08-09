@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9E1963CC2C640881003F941B /* AppAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1963CB2C640881003F941B /* AppAlerts.swift */; };
+		9E1963D22C669C35003F941B /* ContactFeatureAppAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1963D12C669C35003F941B /* ContactFeatureAppAlertTests.swift */; };
+		9E1963D42C669C4C003F941B /* SurveyFeatureAppAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1963D32C669C4C003F941B /* SurveyFeatureAppAlertTests.swift */; };
 		9EE557072C6285CA00547B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557062C6285CA00547B05 /* AppDelegate.swift */; };
 		9EE557092C6285CA00547B05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557082C6285CA00547B05 /* SceneDelegate.swift */; };
 		9EE5570B2C6285CA00547B05 /* AlertFactoryDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5570A2C6285CA00547B05 /* AlertFactoryDemoVC.swift */; };
 		9EE5570E2C6285CA00547B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5570C2C6285CA00547B05 /* Main.storyboard */; };
 		9EE557102C6285E200547B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5570F2C6285E200547B05 /* Assets.xcassets */; };
 		9EE557132C6285E200547B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE557112C6285E200547B05 /* LaunchScreen.storyboard */; };
-		9EE5571E2C6285E300547B05 /* AlertFactoryDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5571D2C6285E300547B05 /* AlertFactoryDemoTests.swift */; };
+		9EE5571E2C6285E300547B05 /* BaseAppAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5571D2C6285E300547B05 /* BaseAppAlertTests.swift */; };
 		9EE557282C6285E300547B05 /* AlertFactoryDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557272C6285E300547B05 /* AlertFactoryDemoUITests.swift */; };
 		9EE5572A2C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557292C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift */; };
 		9EE5573A2C6286F800547B05 /* AlertFactory in Frameworks */ = {isa = PBXBuildFile; productRef = 9EE557392C6286F800547B05 /* AlertFactory */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		9E1963CB2C640881003F941B /* AppAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlerts.swift; sourceTree = "<group>"; };
+		9E1963D12C669C35003F941B /* ContactFeatureAppAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFeatureAppAlertTests.swift; sourceTree = "<group>"; };
+		9E1963D32C669C4C003F941B /* SurveyFeatureAppAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFeatureAppAlertTests.swift; sourceTree = "<group>"; };
 		9EE557032C6285CA00547B05 /* AlertFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE557062C6285CA00547B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE557082C6285CA00547B05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +53,7 @@
 		9EE557122C6285E200547B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EE557142C6285E200547B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EE557192C6285E300547B05 /* AlertFactoryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertFactoryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EE5571D2C6285E300547B05 /* AlertFactoryDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactoryDemoTests.swift; sourceTree = "<group>"; };
+		9EE5571D2C6285E300547B05 /* BaseAppAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAppAlertTests.swift; sourceTree = "<group>"; };
 		9EE557232C6285E300547B05 /* AlertFactoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertFactoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE557272C6285E300547B05 /* AlertFactoryDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactoryDemoUITests.swift; sourceTree = "<group>"; };
 		9EE557292C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactoryDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -132,7 +136,9 @@
 		9EE5571C2C6285E300547B05 /* AlertFactoryDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				9EE5571D2C6285E300547B05 /* AlertFactoryDemoTests.swift */,
+				9EE5571D2C6285E300547B05 /* BaseAppAlertTests.swift */,
+				9E1963D12C669C35003F941B /* ContactFeatureAppAlertTests.swift */,
+				9E1963D32C669C4C003F941B /* SurveyFeatureAppAlertTests.swift */,
 			);
 			path = AlertFactoryDemoTests;
 			sourceTree = "<group>";
@@ -308,7 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE5571E2C6285E300547B05 /* AlertFactoryDemoTests.swift in Sources */,
+				9E1963D22C669C35003F941B /* ContactFeatureAppAlertTests.swift in Sources */,
+				9E1963D42C669C4C003F941B /* SurveyFeatureAppAlertTests.swift in Sources */,
+				9EE5571E2C6285E300547B05 /* BaseAppAlertTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
