@@ -23,6 +23,7 @@ class DemoTableViewCell: UITableViewCell {
     /// - Parameter viewModel: A model used to configure the cell data
     func configure(with viewModel: DemoTableViewCellModel) {
         textLabel?.text = viewModel.title
+        accessibilityIdentifier = viewModel.alert.view.accessibilityIdentifier
         alert = viewModel.alert
     }
     

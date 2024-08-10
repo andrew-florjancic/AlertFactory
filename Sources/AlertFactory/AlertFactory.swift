@@ -21,6 +21,7 @@ extension Action {
     public func create(handler: ((UIAlertAction) -> Void)?) -> UIAlertAction {
         let action = UIAlertAction(title: model.title, style: model.style, handler: handler)
         action.isEnabled = model.isEnabled
+        action.accessibilityIdentifier = String(describing: self)
         return action
     }
 }
@@ -42,6 +43,7 @@ extension Alert {
                        preferredAction: UIAlertAction? = nil,
                        textFieldHandlers: [((UITextField) -> Void)?] = []) -> UIAlertController {
         let alert = UIAlertController(title: model.title, message: model.message, preferredStyle: model.preferredStyle)
+        alert.view.accessibilityIdentifier = String(describing: self)
         alert.isSpringLoaded = model.isSpringLoaded
         alert.severity = model.severity
         textFieldHandlers.forEach { handler in
