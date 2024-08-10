@@ -18,7 +18,6 @@
 		9EE557132C6285E200547B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE557112C6285E200547B05 /* LaunchScreen.storyboard */; };
 		9EE5571E2C6285E300547B05 /* BaseAppAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5571D2C6285E300547B05 /* BaseAppAlertTests.swift */; };
 		9EE557282C6285E300547B05 /* AlertFactoryDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557272C6285E300547B05 /* AlertFactoryDemoUITests.swift */; };
-		9EE5572A2C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE557292C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift */; };
 		9EE5573A2C6286F800547B05 /* AlertFactory in Frameworks */ = {isa = PBXBuildFile; productRef = 9EE557392C6286F800547B05 /* AlertFactory */; };
 		9EE557402C629E6E00547B05 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5573F2C629E6E00547B05 /* DemoTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -56,7 +55,6 @@
 		9EE5571D2C6285E300547B05 /* BaseAppAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAppAlertTests.swift; sourceTree = "<group>"; };
 		9EE557232C6285E300547B05 /* AlertFactoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertFactoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE557272C6285E300547B05 /* AlertFactoryDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactoryDemoUITests.swift; sourceTree = "<group>"; };
-		9EE557292C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactoryDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9EE557372C62864000547B05 /* AlertFactory */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AlertFactory; path = ..; sourceTree = "<group>"; };
 		9EE5573F2C629E6E00547B05 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				9EE557272C6285E300547B05 /* AlertFactoryDemoUITests.swift */,
-				9EE557292C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift */,
 			);
 			path = AlertFactoryDemoUITests;
 			sourceTree = "<group>";
@@ -325,7 +322,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EE557282C6285E300547B05 /* AlertFactoryDemoUITests.swift in Sources */,
-				9EE5572A2C6285E300547B05 /* AlertFactoryDemoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
